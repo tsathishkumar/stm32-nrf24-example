@@ -1,0 +1,16 @@
+[package]
+name = "stm32-nrf24-example"
+version = "0.1.0"
+authors = ["tsathish <tsatiz@gmail.com>"]
+
+[dependencies]
+panic-abort = "0.1.1"
+
+[dependencies.stm32f103xx-hal]
+git = "https://github.com/japaric/stm32f103xx-hal.git"
+features = ["rt"]
+version = "*"
+
+[dependencies.nrf24l01]
+git = "https://github.com/tsathishkumar/nrf24l01.git"
+version = "*"
